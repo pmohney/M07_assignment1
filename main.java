@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 
-@WebServlet("/LoanCalculator/LoanServlet")
+@WebServlet("/loanForm")
 public class main extends HttpServlet {
     private static class Loan {
         private double annualInterestRate;
