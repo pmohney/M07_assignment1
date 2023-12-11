@@ -1,0 +1,24 @@
+//HTML file for main and loanForm
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Calculator Form</title>
+</head>
+<body>
+    <h2>Loan Calculator</h2>
+    <form action="/LoanCalculator/LoanServlet" method="post">
+        <label for="loanAmount">Income:</label>
+        <input type="number" name="loanAmount" required>
+        <br>
+        <label for="filingStatus">Filing Status:</label>
+        <select name="filingStatus">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+        </select>
+        <br>
+        <input type="submit" value="Compute">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
